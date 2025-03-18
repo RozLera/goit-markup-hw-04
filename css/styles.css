@@ -478,6 +478,7 @@ button {
 }
 
 .footer-socials {
+    gap: 16px;
     --icon-width: 24px;
     --icon-height: 24px;
     --link-background-hover:var(--green);
@@ -485,11 +486,11 @@ button {
 
 .footer-container {
     display: flex;
-    gap: 120px;
+    align-items: baseline
 }
 
 .footer-left {
-
+    margin-right: 120px;
 }
 
 .footer-middle {
