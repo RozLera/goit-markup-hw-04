@@ -426,8 +426,8 @@ button {
     height: 100%;
     transform: translateY(100%);
     transition-property: transform;
-    transition-duration: 400ms;
-    transition-timing-function: cubic-bezier: (.17, .67, .83, .67);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier (0.4, 0, 0.2, 1);
 }
 
 .portfolio-list:hover .portfolio-overlay {
