@@ -365,7 +365,8 @@ button {
 }
 
 .cart-content {
-    padding: 32px 16px;
+    padding: 32px 0;
+    flex-basis: calc((100% - 3 * 24) /4);
 }
 
 .title-main {
