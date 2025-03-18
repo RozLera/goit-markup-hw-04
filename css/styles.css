@@ -128,7 +128,10 @@ button {
 }
 
 /* #endregion */
+/* region */
 
+
+/* page header */
 .page-header {
     border-bottom: 1px solid #e7e9fc
 }
@@ -206,6 +209,8 @@ button {
     color: #404bbf;
 }
 
+/* hero section */
+
 .hero {
     background-color: #2e2f42;
     padding: 188px 0;
@@ -233,6 +238,8 @@ button {
     margin-right: auto;
 }
 
+/* button */
+
 .hero-butt {
     background-color: #4d5ae5;
     font-weight: 500;
@@ -254,6 +261,8 @@ button {
     background-color: #404BBF;
 }
 
+
+/* benefits section one */
 
 .benefits-list {
     display: flex;
@@ -298,6 +307,8 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+/* Our team */
 
 .section-team {
     background-color: #F4F4FD
@@ -352,6 +363,8 @@ button {
     margin-bottom: 8px;
 }
 
+/* our portfolio */
+
 .section-project {}
 
 .title-main {
@@ -363,8 +376,6 @@ button {
     color: #2e2f42;
     margin-bottom: 72px;
 }
-
-
 
 .portfolio {
     display: flex;
@@ -398,6 +409,32 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.portfolio-card-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-overlay {
+    color: var(--cloud);
+    background-color: var(--iris);
+    padding: 40px 32px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition-property: transform;
+    transition-duration: 400ms;
+    transition-timing-function: cubic-bezier: (.17, .67, .83, .67);
+}
+
+.portfolio-list:hover .portfolio-overlay {
+    transform: translateY(0%);
+}
+
+/* footer */
 
 .footer {
     background-color: #2e2f42;
