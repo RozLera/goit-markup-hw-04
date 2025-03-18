@@ -515,7 +515,8 @@ button {
     align-items: baseline
 }
 
-.footer-container .socials-link:hover {
+.footer-container .socials-link:hover,
+.footer-container .socials-link:focus {
     background-color: var(--green);
 }
 
