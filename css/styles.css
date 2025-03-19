@@ -99,8 +99,6 @@ button {
 }
 
 .socials-item {
-    display: flex;
-    gap: 16px;
     width: 40px;
     height: 40px;
 }
@@ -130,8 +128,6 @@ button {
     height: var(--icon-height); 
     fill: currentColor; */
     fill: #f4f4fd;
-    width: 24px;
-    height: 24px;
 }
 
 /* #endregion */
